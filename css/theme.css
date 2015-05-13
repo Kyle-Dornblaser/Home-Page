@@ -2,7 +2,7 @@ body {
 
 }
 
-h4 {
+h3 {
   color: #27ae60;
 }
 
@@ -12,6 +12,7 @@ a:hover {
 
 .button {
   background-color: #27ae60;
+  margin: 0;
 }
 
 .button:hover {
@@ -24,8 +25,12 @@ a:hover {
   color: #EBF4EF;
 }
 
-.header h1, .header a {
+.header h1 {
   color: #00411B;
+}
+
+.header a {
+  color: #EBF4EF;
 }
 
 .header a:hover {
@@ -42,4 +47,54 @@ p {
 
 .button.small {
   font-size: 1rem;
+}
+
+.portfolio-item {
+  padding: 30px 0 50px 0;
+}
+
+.portfolio-item:nth-child(even) {
+  background-color: #efefef;
+}
+
+.footer {
+  background-color: #27ae60;
+  padding: 47px 0 30px 0;
+  color: #EBF4EF;
+}
+
+/* skills */
+
+.badge {
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+}
+
+.ruby {
+  background-color: #980d03;
+}
+
+.php {
+  background-color: #4F5B93;
+}
+
+.javascript {
+  background-color: #d6ba32;
+}
+
+.sql {
+  background-color: #316192;
+}
+
+.html {
+  background-color: #e34c26;
+}
+
+.css {
+  background-color: #0070ba;
+}
+
+.java {
+  background-color: #dd4f39;
 }
