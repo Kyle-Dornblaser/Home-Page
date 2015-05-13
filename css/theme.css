@@ -1,0 +1,45 @@
+body {
+
+}
+
+h4 {
+  color: #27ae60;
+}
+
+a:hover {
+  color: #7CB342;
+}
+
+.button {
+  background-color: #27ae60;
+}
+
+.button:hover {
+  background-color: #7CB342;
+}
+
+.header {
+  background-color: #27ae60;
+  padding: 47px 0 30px 0;
+  color: #EBF4EF;
+}
+
+.header h1, .header a {
+  color: #00411B;
+}
+
+.header a:hover {
+  color: #001D0C;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.main {
+
+}
+
+.button.small {
+  font-size: 1rem;
+}
