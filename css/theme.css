@@ -1,4 +1,10 @@
 body {}
+
+h2 .small {
+  font-size: 1.5rem;
+  color: #bbb;
+}
+
 h3 {
   color: #27ae60;
 }
@@ -20,6 +26,14 @@ a:hover {
   background-color: #27ae60;
   padding: 47px 0 30px 0;
   color: #EBF4EF;
+  background: -moz-linear-gradient(-45deg,  #27ae60 0%, #22a75a 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#27ae60), color-stop(100%,#22a75a)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #27ae60 0%,#22a75a 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #27ae60 0%,#22a75a 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #27ae60 0%,#22a75a 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #27ae60 0%,#22a75a 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27ae60', endColorstr='#22a75a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 .header h1 {
   color: #00411B;
