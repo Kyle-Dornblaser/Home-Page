@@ -1,100 +1,93 @@
-body {
-
-}
-
+body {}
 h3 {
   color: #27ae60;
 }
-
 a:hover {
   color: #7CB342;
 }
-
 .button {
   background-color: #27ae60;
-  margin: 0;
 }
-
+@media only screen and (min-width: 40.063em) {
+  .button {
+    margin: 0;
+  }
+}
 .button:hover {
   background-color: #7CB342;
 }
-
 .header {
   background-color: #27ae60;
   padding: 47px 0 30px 0;
   color: #EBF4EF;
 }
-
 .header h1 {
   color: #00411B;
 }
-
 .header a {
   color: #EBF4EF;
 }
-
 .header a:hover {
   color: #001D0C;
 }
-
+.header .button {
+  background-color: #00411B;
+}
+.header .button:hover {
+  color: #fff;
+  background-color: #219452;
+}
 p {
   font-size: 1.1rem;
 }
-
-.main {
-
-}
-
+.main {}
 .button.small {
   font-size: 1rem;
 }
-
 .portfolio-item {
   padding: 30px 0 50px 0;
 }
-
 .portfolio-item:nth-child(even) {
   background-color: #efefef;
 }
-
 .footer {
   background-color: #27ae60;
   padding: 47px 0 30px 0;
   color: #EBF4EF;
 }
-
 /* skills */
 
 .badge {
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 7px;
+  padding: 5px 7px;
   color: #fff;
-}
+  background-color: #219452;
+  /* default badge color */
 
+  cursor: pointer;
+  transition: background-color 300ms ease-out;
+}
+.badge:hover {
+  background-color: #00411B;
+}
 .ruby {
   background-color: #980d03;
 }
-
 .php {
   background-color: #4F5B93;
 }
-
 .javascript {
   background-color: #d6ba32;
 }
-
 .sql {
   background-color: #316192;
 }
-
 .html {
   background-color: #e34c26;
 }
-
 .css {
   background-color: #0070ba;
 }
-
 .java {
   background-color: #dd4f39;
 }
