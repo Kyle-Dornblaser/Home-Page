@@ -18,6 +18,11 @@ a:hover {
   .button {
     margin: 0;
   }
+
+  .center-children {
+      display: flex;
+      align-items: center;
+  }
 }
 .button:hover {
   background-color: #7CB342;
@@ -44,10 +49,10 @@ a:hover {
 .header a:hover {
   color: #001D0C;
 }
-.header .button {
+.header .button, .footer .button {
   background-color: #00411B;
 }
-.header .button:hover {
+.header .button:hover, .footer .button:hover {
   color: #fff;
   background-color: #219452;
 }
@@ -70,6 +75,16 @@ p {
   padding: 47px 0 30px 0;
   color: #EBF4EF;
 }
+
+.footer .message {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
 /* skills */
 
 .badge {
