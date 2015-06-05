@@ -64,6 +64,7 @@ p {
 .portfolio-item:nth-child(even) {
   background-color: #efefef;
 }
+
 .footer {
   background-color: #27ae60;
   padding: 47px 0 30px 0;
@@ -73,12 +74,14 @@ p {
 
 .badge {
   border-radius: 7px;
-  padding: 5px 7px;
+  padding: 4px 7px;
   color: #fff;
-  background-color: #219452;
+  display: inline-block;
+  margin-bottom: 3px;
   /* default badge color */
-
-  cursor: pointer;
+  background-color: #219452;
+  /* remove pointer until it is actionable */
+  /*cursor: pointer; */
   transition: background-color 300ms ease-out;
 }
 .badge:hover {
