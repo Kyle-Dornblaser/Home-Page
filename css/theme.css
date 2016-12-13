@@ -1,5 +1,9 @@
 body {}
 
+iframe {
+  max-width: 100%;
+}
+
 h2 .small {
   font-size: 1.5rem;
   color: #bbb;
